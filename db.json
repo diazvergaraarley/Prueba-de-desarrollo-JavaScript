@@ -1,0 +1,103 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Arley"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Carlos"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Isaac"
+    },
+    {
+      "id": "4",
+      "email": "user3@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Abraham"
+    },
+    {
+      "id": "5",
+      "email": "user4@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Sebastián"
+    }
+
+  ],
+  "reservations": [
+    {
+      "userId": "1",
+      "workspace": "Sala A",
+      "date": "2026-05-11",
+      "startHour": "20:02",
+      "endHour": "09:03",
+      "reason": "asdasdsa",
+      "status": "rejected",
+      "id": "rY7WJvMCGFk"
+    },
+    {
+      "userId": "2",
+      "workspace": "Sala A",
+      "date": "2026-06-12",
+      "startHour": "08:09",
+      "endHour": "09:09",
+      "reason": "asdasdsaasdsadas",
+      "status": "pending",
+      "id": "7NS4RJiKWRY"
+    },
+    {
+      "userId": "1",
+      "workspace": "Oficina 1",
+      "date": "2026-12-05",
+      "startHour": "08:05",
+      "endHour": "10:30",
+      "reason": "Espacio de monitoreo",
+      "status": "pending",
+      "id": "-0wUxh6at7M"
+    },
+    {
+      "userId": "1",
+      "workspace": "Cooworking 1",
+      "date": "2026-06-08",
+      "startHour": "15:25",
+      "endHour": "16:25",
+      "reason": "Cooworking space",
+      "status": "pending",
+      "id": "0D1AFvTK4bY"
+    },
+    {
+      "userId": "2",
+      "workspace": "Sala A",
+      "date": "2026-06-08",
+      "startHour": "15:25",
+      "endHour": "16:25",
+      "reason": "Team meeting",
+      "status": "pending",
+      "id": "D9fIh60HLAA"
+    },
+    {
+      "userId": "1",
+      "workspace": "Sala C",
+      "date": "2026-06-17",
+      "startHour": "12:15",
+      "endHour": "15:45",
+      "reason": "asdassad",
+      "status": "pending",
+      "id": "LvrPC_YTvV4"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
