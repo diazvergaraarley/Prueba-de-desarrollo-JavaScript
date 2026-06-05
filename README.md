@@ -86,9 +86,6 @@ src
 
 ### 1. Clone the repository
 
-```bash
-git clone <repository-url>
-```
 
 ```bash
 cd project-management-spa
